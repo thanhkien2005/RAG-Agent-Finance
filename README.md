@@ -16,7 +16,7 @@
 ## 🌐 Live Demo
 
 ### 🎥 Video walkthrough - Click vào ảnh để xem Demo
-[![RAG Agent Finance — Demo](https://img.youtube.com/vi/SPFvFsjJ-Rbo/maxresdefault.jpg)](https://www.youtube.com/watch?v=PFvFsjJ-Rbo "Click để xem demo trên YouTube")
+[![RAG Agent Finance — Demo](https://img.youtube.com/vi/PFvFsjJ-Rbo/maxresdefault.jpg)](https://www.youtube.com/watch?v=PFvFsjJ-Rbo "Click để xem demo trên YouTube")
 ### 🔗 Live services
 <!-- DEMO_VIDEO_URL -->
 > *Video demo sẽ được embed tại đây sau khi upload (placeholder).*

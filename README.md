@@ -27,7 +27,7 @@
 | 💬 **Chat UI** | https://project2-delta-lake.vercel.app/ | Vercel |
 | ⚙️ **Backend API** | https://lovingtk5-acbs-rag-agent.hf.space/ | Hugging Face Spaces |
 | 📑 **Swagger Docs** | https://lovingtk5-acbs-rag-agent.hf.space/docs | Auto-generated |
-| 📦 **Source code** | https://github.com/thanhkien2005/Project2 | GitHub |
+| 📦 **Source code** | https://github.com/thanhkien2005/RAG-Agent-Finance | GitHub |
 | 🤗 **HF Space repo** | https://huggingface.co/spaces/lovingTK5/acbs-rag-agent | HF |
 
 ---
@@ -162,7 +162,7 @@ Tách 2 tier giúp: bảo mật API key (Groq key chỉ tồn tại trên HF Sec
 | **OCR** | PaddleOCR-VL | Aistudio Baidu | Best-in-class cho mixed text + table layout |
 | **Container** | Docker | 29.4.1 | Reproducible build, HF Spaces native support |
 | **Container host** | HF Spaces | Docker SDK | 16GB RAM free, có HF cache pre-warm, IPv6 OK |
-| Code repo | GitHub | thanhkien2005/Project2 | Public, sync với Vercel |
+| Code repo | GitHub | thanhkien2005/RAG-Agent-Finance | Public, sync với Vercel |
 
 ---
 
@@ -611,8 +611,8 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 ### Deploy Vercel
 
-1. Connect GitHub repo `thanhkien2005/Project2`
-2. Root directory: `frontend/`
+1. Connect GitHub repo `thanhkien2005/RAG-Agent-Finance`
+2. Root directory: `frontend/` (⚠️ phải set explicit vì monorepo có code ngoài frontend/)
 3. Environment variable: `NEXT_PUBLIC_API_URL=https://lovingtk5-acbs-rag-agent.hf.space`
 4. Click Deploy → URL `project2-delta-lake.vercel.app` sau ~2 phút
 
@@ -872,8 +872,8 @@ curl.exe -X POST "$URL/chat" -H "Content-Type: application/json" --data-binary "
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/thanhkien2005/Project2.git
-cd Project2
+git clone https://github.com/thanhkien2005/RAG-Agent-Finance.git
+cd RAG-Agent-Finance
 ```
 
 ### 2. Backend (FastAPI + LangGraph)
